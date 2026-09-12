@@ -1,11 +1,11 @@
 {
-  "name": "TI-89 Titanium",
+  "name": "TI-89 Dalmatian",
   "short_name": "TI-89",
-  "description": "Calculadora web inspirada en la TI-89 Titanium",
+  "description": "Calculadora web inspirada en la TI-89, con skin dálmata",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#0e0c0a",
-  "theme_color": "#1a1d22",
+  "background_color": "#070707",
+  "theme_color": "#111111",
   "icons": [
     { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
   ]

@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#1a1d22" />
-  <title>TI-89 Titanium — calculadora web</title>
-  <meta name="description" content="Calculadora web inspirada en la Texas Instruments TI-89 Titanium. Home, gráficas, tabla y teclado auténtico." />
+  <meta name="theme-color" content="#111111" />
+  <title>TI-89 Dalmatian — calculadora web</title>
+  <meta name="description" content="Calculadora web inspirada en la Texas Instruments TI-89, con skin dálmata. Home, gráficas, tabla y teclado auténtico." />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,16 +16,21 @@
 <body>
   <div class="desk">
     <div class="calc-wrap">
-      <div class="calc" id="calc" aria-label="Calculadora TI-89 Titanium">
+      <div class="calc" id="calc" aria-label="Calculadora TI-89 Dalmatian">
+        <div class="ear ear-left" aria-hidden="true"><span class="inner"></span></div>
+        <div class="ear ear-right" aria-hidden="true"><span class="inner"></span></div>
         <header class="brand">
           <div class="ti">TEXAS INSTRUMENTS</div>
           <div class="model">TI-89</div>
-          <div class="edition">TITANIUM</div>
+          <div class="edition">DALMATIAN</div>
         </header>
         <div class="bezel">
           <div class="lcd" id="lcd"></div>
         </div>
         <div class="keys" id="keys"></div>
+        <div class="collar" aria-hidden="true">
+          <span class="tag">89</span>
+        </div>
       </div>
       <p class="hint">
         Pulsa <kbd>ON</kbd> para encender. Escribe con el teclado o con las teclas de la calculadora.

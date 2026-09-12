@@ -488,7 +488,7 @@
     if (state.splash) {
       lcd.innerHTML =
         '<div class="status"><span>TI-89</span><span>AMS 3.10</span></div>' +
-        '<div class="screen-body"><div class="splash"><div class="big">TI-89</div><div class="small">TITANIUM</div><div class="small">Advanced Mathematics Software</div></div></div>' +
+        '<div class="screen-body"><div class="splash"><div class="big">TI-89</div><div class="small">DALMATIAN</div><div class="small">Advanced Mathematics Software</div></div></div>' +
         softHtml();
       return;
     }
